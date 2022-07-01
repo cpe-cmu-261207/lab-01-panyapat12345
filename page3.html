@@ -22,16 +22,31 @@
 
     <!-- Navbar -->
     <div class="d-flex justify-content-center bg-primary">
+
+      <!-- big-navbar -->
       <div
-        class="d-flex align-items-center bg-primary text-white pt-2 pb-1"
+        class="d-none d-md-flex align-items-center bg-primary text-white pt-2 pb-1"
         style="width: 1300px"
       >
-        <span class="me-auto h1">MY RESUME</span>
-        <div class="d-flex gap-5 h4">
-          <a href="index.html" class="nav-link"><span>HOME</span></a>
-          <a href="page2.html" class="nav-link"><span>EXPERIENCE</span></a>
+      <span class="me-auto h1">MY RESUME</span>
+      <div class="d-flex gap-5 h4">
+        <a href="index.html" class="nav-link"><span>HOME</span></a>
+        <a href="page2.html" class="nav-link"><span>EXPERIENCE</span></a>
+        <span class="text-dark">CONTACT</span>
+      </div>
+      </div>
 
-          <span class="text-dark">CONTACT</span>
+      <!-- small-navbar -->
+      <div
+        class="d-flex d-md-none align-items-center bg-primary text-white pt-2 pb-1"
+        style="width: 1300px"
+      >
+        <div class="d-flex gap-5 h4 mx-auto">
+          <div class="d-flex gap-5 h4">
+            <a href="index.html" class="nav-link"><span>HOME</span></a>
+            <a href="page2.html" class="nav-link"><span>EXPERIENCE</span></a>
+            <span class="text-dark">CONTACT</span>
+          </div>
         </div>
       </div>
 
@@ -43,7 +58,7 @@
         <span class="h1 pb-4">ช่องทางการติดต่อ</span>
       </div>
 
-    <!-- contact box-->
+    <!--new contact box-->
     <div class="pb-3">
       <div class="pb-5">
         <div class="d-flex justify-content-center pb-5 pt-1" style="background-color: skyblue;">
@@ -53,37 +68,49 @@
             <div class="d-flex align-items-center">
               <img src="picture/my_picture.JPG" class="rounded-circle" style="width: 250px; height: 250px; object-fit: cover;">
             </div>
-            <!-- header -->
+
+            <!-- details -->
             <div class="d-flex align-items-center">
               <div class="d-flex flex-column gap-3 h5">
-                <span>ชื่อ</span>
-                <span>ชื่อเล่น</span>
-                <span class="d-flex align-items-center" style="height: 65px;">ที่อยู่</span>
-                <span>Facebook</span>
-                <span>Email</span>
-                <span>เบอร์โทรศัพท์</span>    
+                
+                <div class="d-flex ">
+                  <span style="width: 150px;">ชื่อ</span>
+                  <span>ปัญญพัฒน์ วงษ์ดี</span>
+                </div>
+    
+                <div class="d-flex">
+                  <span style="width: 150px;">ชื่อเล่น</span>
+                  <span>คอม</span>
+                </div>
+                <div class="d-flex align-items-center">
+                  <span style="width: 150px;">ที่อยู่</span>
+                  <div class="d-flex flex-column gap-3">
+                    <span>18/6 หมู่ที่ 2 ต.บ้านกลาง อ.สันป่าตอง </span>
+                    <span>จ.เชียงใหม่ 50120</span>
+                  </div>
+
+                </div>
+                <div class="d-flex">
+                  <span style="width: 150px;">Facebook</span>
+                  <a href="https://web.facebook.com/panyapat.wongdee" class="nav-link text-primary" target="_blank" >
+                    <span>www.facebook.com/panyapat.wongdee</span>
+                  </a>
+                  
+                </div>
+                <div class="d-flex">
+                  <span style="width: 150px;">Email</span>
+                  <a href="mailto:panyapat_wongdee@cmu.ac.th" class="nav-link text-primary">
+                    <span>panyapat_wongdee@cmu.ac.th</span>
+                  </a>
+                </div>
+                <div class="d-flex">
+                  <span style="width: 150px;">เบอร์โทรศัพท์</span>  
+                  <span>062-2850186</span>   
+                </div>
+                   
               </div>
             </div>
-            
-      
-            
-            <!-- details -->
-            <div class="d-flex align-items-center" >
-              <div class="d-flex flex-column gap-3 h5">
-                <span>ปัญญพัฒน์ วงษ์ดี</span>
-                <span>คอม</span>
-                <span>18/6 หมู่ที่ 2 ต.บ้านกลาง อ.สันป่าตอง </span>
-                <span>จ.เชียงใหม่ 50120</span>
-                <a href="https://web.facebook.com/panyapat.wongdee" class="nav-link text-primary" target="_blank" >
-                  <span>www.facebook.com/panyapat.wongdee</span>
-                </a>
-                <a href="mailto:panyapat_wongdee@cmu.ac.th" class="nav-link text-primary">
-                  <span>panyapat_wongdee@cmu.ac.th</span>
-                </a>
-      
-                <span>062-2850186</span>    
-              </div>
-            </div>
+
       
           </div>
         </div>
