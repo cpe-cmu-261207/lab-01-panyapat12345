@@ -16,6 +16,18 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="picture/icon.png" />
+    <style>
+      span {
+        font-family: 'Kanit', sans-serif;
+      }
+      div {
+        font-family: 'Kanit', sans-serif;
+      }
+    </style>
   </head>
 
   <body>
@@ -26,27 +38,37 @@
       <!-- big-navbar -->
       <div
         class="d-none d-md-flex align-items-center bg-primary text-white pt-2 pb-1"
-        style="width: 1300px"
+        style="width: 1300px;  height: 68px;"
       >
-      <span class="me-auto h1">MY RESUME</span>
+      <span class="me-auto h1 ms-3">MY RESUME</span>
       <div class="d-flex gap-5 h4">
         <a href="index.html" class="nav-link"><span>HOME</span></a>
         <a href="page2.html" class="nav-link"><span>EXPERIENCE</span></a>
-        <span class="text-dark">CONTACT</span>
+        <span class="text-dark me-3">CONTACT</span>
       </div>
+      </div>
+      
+      <!-- med-navbar -->
+      <div
+        class="d-none d-sm-flex d-md-none align-items-center bg-primary text-white pt-2 pb-1"
+        style="width: 1300px; height: 68px"
+      >
+        <div class="d-flex gap-5 h4 mx-auto">
+          <a href="index.html" class="nav-link"><span>HOME</span></a>
+          <a href="page2.html" class="nav-link"><span>EXPERIENCE</span></a>
+          <span class="text-dark">CONTACT</span>
+        </div>
       </div>
 
       <!-- small-navbar -->
       <div
-        class="d-flex d-md-none align-items-center bg-primary text-white pt-2 pb-1"
-        style="width: 1300px"
+        class="d-flex d-sm-none align-items-center bg-primary text-white pt-2 pb-1"
+        style="width: 1300px; height: 68px"
       >
-        <div class="d-flex gap-5 h4 mx-auto">
-          <div class="d-flex gap-5 h4">
-            <a href="index.html" class="nav-link"><span>HOME</span></a>
-            <a href="page2.html" class="nav-link"><span>EXPERIENCE</span></a>
-            <span class="text-dark">CONTACT</span>
-          </div>
+        <div class="d-flex gap-4 h4 mx-auto">
+          <a href="index.html" class="nav-link"><span>HOME</span></a>
+          <a href="page2.html" class="nav-link"><span>EXPERIENCE</span></a>
+          <span class="text-dark">CONTACT</span>
         </div>
       </div>
 
@@ -58,15 +80,15 @@
         <span class="h1 pb-4">ช่องทางการติดต่อ</span>
       </div>
 
-    <!--new contact box-->
-    <div class="pb-3">
+    <!--big contact box-->
+    <div class="pb-5 d-none d-md-block">
       <div class="pb-5">
         <div class="d-flex justify-content-center pb-5 pt-1" style="background-color: skyblue;">
-          <div class="d-flex justify-content-center gap-5 p-4 border border-1 rounded-5 bg-white" style="width: 900px; height: 400px;" >
+          <div class="d-flex justify-content-center gap-5 p-5 border border-1 rounded-5 bg-white" style="max-width: 900px; max-height: 400px;" >
       
             <!-- image -->
             <div class="d-flex align-items-center">
-              <img src="picture/my_picture.JPG" class="rounded-circle" style="width: 250px; height: 250px; object-fit: cover;">
+              <img src="picture/my_picture.JPG" class="rounded-circle" style="max-width: 250px; max-height: 250px; object-fit: cover;">
             </div>
 
             <!-- details -->
@@ -110,6 +132,67 @@
                    
               </div>
             </div>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--md contact box-->
+    <div class="pb-5 d-none d-sm-block d-md-none">
+      <div class="pb-5">
+        <div class="d-flex justify-content-center pb-5 pt-1" style="background-color: skyblue;">
+          <div class="d-flex flex-column justify-content-center gap-4 p-3 border border-1 rounded-5 bg-white" style="max-width: 900px; max-height: 900px;" >
+      
+            <!-- image -->
+              <div class="d-flex justify-content-center">
+                <img src="picture/my_picture.JPG" class="rounded-circle" style="max-width: 250px; max-height: 250px; object-fit: cover;">
+              </div>
+
+            <!-- details -->
+            <div>
+              <div class="d-flex align-items-center">
+                <div class="d-flex flex-column gap-3 h5">
+                  
+                  <div class="d-flex ">
+                    <span style="width: 125px;">ชื่อ</span>
+                    <span>ปัญญพัฒน์ วงษ์ดี</span>
+                  </div>
+      
+                  <div class="d-flex">
+                    <span style="width: 125px;">ชื่อเล่น</span>
+                    <span>คอม</span>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span style="width: 125px;">ที่อยู่</span>
+                    <div class="d-flex flex-column gap-3">
+                      <span>18/6 หมู่ที่ 2 ต.บ้านกลาง อ.สันป่าตอง </span>
+                      <span>จ.เชียงใหม่ 50120</span>
+                    </div>
+
+                  </div>
+                  <div class="d-flex">
+                    <span style="width: 125px;">Facebook</span>
+                    <a href="https://web.facebook.com/panyapat.wongdee" class="nav-link text-primary" target="_blank" >
+                      <span>www.facebook.com/panyapat.wongdee</span>
+                    </a>
+                    
+                  </div>
+                  <div class="d-flex">
+                    <span style="width: 125px;">Email</span>
+                    <a href="mailto:panyapat_wongdee@cmu.ac.th" class="nav-link text-primary">
+                      <span>panyapat_wongdee@cmu.ac.th</span>
+                    </a>
+                  </div>
+                  <div class="d-flex">
+                    <span style="width: 125px;">เบอร์โทรศัพท์</span>  
+                    <span>062-2850186</span>   
+                  </div>
+                    
+                </div>
+              </div>
+
+            </div>
 
       
           </div>
@@ -117,6 +200,71 @@
       </div>
     </div>
 
+    <!--small contact box-->
+    <div class="pb-5 d-block d-sm-none">
+      <div class="pb-5">
+        <div class="d-flex justify-content-center pb-5 pt-1" style="background-color: skyblue;">
+          <div class="d-flex flex-column justify-content-center gap-4 p-3 border border-1 rounded-5 bg-white" style="max-width: 900px; max-height: 900px;" >
+      
+            <!-- image -->
+              <div class="d-flex justify-content-center">
+                <img src="picture/my_picture.JPG" class="rounded-circle" style="max-width: 250px; max-height: 250px; object-fit: cover;">
+              </div>
+
+            <!-- details -->
+            <div>
+              <div class="d-flex align-items-center">
+                <div class="d-flex flex-column gap-4 h5">
+                  
+                  <div class="d-flex flex-column gap-2">
+                    <span>ชื่อ</span>
+                    <span class="ps-4">ปัญญพัฒน์ วงษ์ดี</span>
+                  </div>
+      
+                  <div class="d-flex flex-column gap-2">
+                    <span>ชื่อเล่น</span>
+                    <span class="ps-4">คอม</span>
+                  </div>
+
+                  <div class="d-flex flex-column gap-2">
+                    <span>ที่อยู่</span>
+                    <div class="d-flex flex-column gap-2">
+                      <span class="ps-4">18/6 หมู่ที่ 2 ต.บ้านกลาง อ.สันป่าตอง</span>
+                      <span>จ.เชียงใหม่ 50120</span>
+                    </div>
+
+                  </div>
+                  <div class="d-flex flex-column gap-2">
+                    <span style="width: 125px;">Facebook</span>
+                    <a href="https://web.facebook.com/panyapat.wongdee" class="nav-link text-primary" target="_blank" >
+                      <div class="d-flex flex-column gap-2">
+                        <span class="ps-4">www.facebook.com/panyapat.</span>
+                        <span>wongdee</span>
+                      </div>
+
+                    </a>
+                    
+                  </div>
+                  <div class="d-flex flex-column gap-2">
+                    <span>Email</span>
+                    <a href="mailto:panyapat_wongdee@cmu.ac.th" class="nav-link text-primary">
+                      <span class="ps-4">panyapat_wongdee@cmu.ac.th</span>
+                    </a>
+                  </div>
+                  <div class="d-flex flex-column gap-2">
+                    <span>เบอร์โทรศัพท์</span>  
+                    <span class="ps-4">062-2850186</span>   
+                  </div>
+                    
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- endbar -->
     <div class="d-flex justify-content-center bg-primary">
